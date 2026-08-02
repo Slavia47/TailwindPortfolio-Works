@@ -57,9 +57,7 @@ No build step required if relying on the CDN script alone. If you intend to use 
 ## Notes / TODO
 
 - All six project cards currently use identical placeholder content (same image, "Projext title", same description/hashtags) — replace each with real project data
-- Repeated typos in the placeholder copy: "Projext" → "Project", "paterns" → "patterns", "arythmetic" → "arithmetic", "ballance" → "balance", "typogrtaphy" → "typography"
-- The `CV_download` `<button>` has an `href="#"` attribute — buttons don't support `href` (only `<a>` does); this attribute currently has no effect and can be removed, or the button converted to a styled `<a>` if it should behave as a link/download
-- Both the Tailwind CDN script and a linked `output.css` are present at the same time — if `output.css` is a real compiled build, the CDN script is redundant and can be removed to avoid duplicate/conflicting style generation
+- Spelling check
 - "Load next entries" link (`#`) isn't wired to any pagination logic yet — connect to real page-2 data/routing when available
 
 ## License
